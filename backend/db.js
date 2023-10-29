@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const mongoURI = 'mongodb+srv://root:root@gofooder.efzwlwg.mongodb.net/gofooder?retryWrites=true&w=majority';
+const mongoURI = 'mongodb+srv://<password>:<password>@gofooder.efzwlwg.mongodb.net/gofooder1?retryWrites=true&w=majority';
 
 const connectToMongo = async () => {
     await mongoose.connect(mongoURI);
